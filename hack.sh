@@ -32,7 +32,7 @@ sleep 3
 sleep 2                                                         sleep 1
 sleep 1
 echo
-echo "$lightgreen[✓]LOGIN BERHASIL ✓"
+echo "$green[✓]LOGIN BERHASIL ✓"
 read -p "[KEMBALI]" read tr
 
 clear
@@ -61,10 +61,12 @@ echo "   $blue [                  $red SCRIPT : BY TIME EROR           $blue ]"
 echo "$blue [»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»]"
 echo "$lightblue SILAKAN PILIH MENU HACK FB"
 echo
-echo "$lightblue 1.CRACK DARI TEMAN [TARGET] "
-echo "$lightblue 2.CRACK DARI GRUPP "
-echo "$lightblue 3.BRUTEFORCE "
-echo "$lightblue 4.MULTI BRUTEFORCE [TARGET] "
+echo "\e[1;34m SILAKAN PILIH MENU HACK FB"
+
+echo "\e[1;34m 1.CRACK DARI TEMAN [TARGET]"
+echo "\e[1;34m 2.CRACK DARI GRUPP"
+echo "\e[1;34m 3.BRUTEFORCE"
+echo "\e[1;34m 4.MULTI BRUTEFORCE [TARGET]"
 echo
-read -p "PILIH : " pil :
+read -p "PILIH : " read tr
 
